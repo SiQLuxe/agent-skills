@@ -6,7 +6,7 @@
 
 | 技能 | 用途 |
 |---|---|
-| [`cs-feynman-html-coach`](skills/cs-feynman-html-coach/SKILL.md) | 费曼学习法教练。角色反转：你先讲，AI 当新手追问，逼出知识盲点，最终产出一份单文件、离线可用的交互式 HTML 学习报告。 |
+| [`cs-feynman-html`](skills/cs-feynman-html/SKILL.md) | 费曼学习法教练。角色反转：你先讲，AI 当新手追问，逼出知识盲点，最终产出一份单文件、离线可用的交互式 HTML 学习报告。 |
 
 ## 安装
 
@@ -14,7 +14,7 @@
 npx skills add SiQLuxe/agent-skills
 ```
 
-也可以手动拷贝：把 `skills/cs-feynman-html-coach/` 整个目录放到你所用工具的 skills 目录。
+也可以手动拷贝：把 `skills/cs-feynman-html/` 整个目录放到你所用工具的 skills 目录。
 已验证可用的位置：
 
 | 工具 | 目录 |

@@ -1,10 +1,10 @@
 ---
-name: cs-feynman-html-coach
+name: cs-feynman-html
 description: "费曼学习法教练 v3.2。用『你教 AI』的角色反转，通过初讲→被追问→重新讲明白三轮暴露并补齐知识盲点，最后把整段过程沉淀为一份生动、单文件、离线可用的交互式 HTML 学习报告：滚动叙事 + 拉幕对比 + 计算阶梯 + 闯关自测；通俗部分用比喻，专业部分用数学公式并配逐步演算。HTML 的版式、模块与配色是默认建议，可按题材调整。触发词：费曼学习、用费曼法帮我理解 XX、检验我对 XX 的理解、假装我在教、费曼卡片、学习报告。"
 version: 3.2.0
 ---
 
-# 费曼学习法 HTML 教练 v3.2
+# 费曼学习法 HTML 报告 v3.2
 
 把「教别人」这个核心动作，变成一套**固定、可执行**的协作流程；产出不是聊天记录，而是一份**能反复回看的交互式 HTML 学习资产**。
 
@@ -816,7 +816,7 @@ $('subtitle').textContent=D.subtitle||'';
 $('oneLiner').textContent=(D.oneLiner||'');
 if(D.heroNum){$('bigNum').innerHTML=D.heroNum;$('bigCap').innerHTML=D.heroCap||'';}
 else{$('bigNum').parentNode.style.display='none';}
-$('foot').textContent='生成于 '+D.date+' · 由 cs-feynman-html-coach 输出 · 用"教"来"学"';
+$('foot').textContent='生成于 '+D.date+' · 由 cs-feynman-html 输出 · 用"教"来"学"';
 $('simIntro').innerHTML=D.sim.intro||'';
 /* ===== 深度滑块 ===== */
 (function(){const el=$('depth'),tx=$('depthText');

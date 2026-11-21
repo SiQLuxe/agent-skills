@@ -556,7 +556,7 @@ $('subtitle').textContent=D.subtitle||'';
 $('oneLiner').textContent=(D.oneLiner||'');
 if(D.heroNum){$('bigNum').innerHTML=D.heroNum;$('bigCap').innerHTML=D.heroCap||'';}
 else{$('bigNum').parentNode.style.display='none';}
-$('foot').textContent='生成于 '+D.date+' · 由 feynman-html-coach 输出 · 用"教"来"学"';
+$('foot').textContent='生成于 '+D.date+' · 由 cs-feynman-html 输出 · 用"教"来"学"';
 $('simIntro').innerHTML=D.sim.intro||'';
 /* ===== 深度滑块 ===== */
 (function(){const el=$('depth'),tx=$('depthText');
